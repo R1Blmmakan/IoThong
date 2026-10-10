@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Bobot dan artefak training tidak di-commit.
+# Model custom belum dilatih sampai selesai di mesin ini.
+runs/
+*.pt
+*.cache
+*.onnx
+*.engine
+
+# Gambar dan label disalin dari clone IoTong atau webcam.
+# Jangan masukkan dataset IoTong ke repo ini.
+dataset/images/**/*.jpg
+dataset/images/**/*.jpeg
+dataset/images/**/*.png
+dataset/images/**/*.webp
+dataset/labels/**/*.txt
+
+.env
+*.local
+capture/

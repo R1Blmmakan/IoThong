@@ -1,0 +1,14 @@
+# Kelas sama persis dengan IoTong:
+# dataset_raw/TrashType_Image_Dataset/data.yaml
+# path relatif terhadap folder proyek (perintah dijalankan dari situ).
+path: dataset
+train: images/train
+val: images/val
+
+names:
+  0: cardboard
+  1: glass
+  2: metal
+  3: paper
+  4: plastic
+  5: trash
